@@ -2,12 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package dal;
+package dal.implement;
+
 
 
 import dal.GenericDAO;
 import java.util.List;
 import model.Category;
+import model.Product;
 
 /**
  *
@@ -17,7 +19,7 @@ public class CategoryDAO extends GenericDAO<Category>{
 
     @Override
     public List<Category> findAll() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return null;
     }
 
     @Override
